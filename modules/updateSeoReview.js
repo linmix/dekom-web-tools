@@ -1,3 +1,4 @@
+const { formatTitleCharacterCounts } = require("./formatSeoMetadata");
 const fs = require("fs");
 const path = require("path");
 const { recordContentReview, auditContent } = require("./seoContentReview");
@@ -320,6 +321,14 @@ function markdownValue(value) {
     return String(value)
         .replace(/\r?\n/g, " ")
         .trim();
+}
+
+
+function appendTitleCharacterCounts(lines, component, value, publishedTitle) {
+    if (component === "title") {
+        const counts = formatTitleCharacterCounts(value, publishedTitle);
+        if (counts) lines.push(counts, "");
+    }
 }
 
 
@@ -873,6 +882,7 @@ function buildLeaderBatchMarkdown({
             );
 
             lines.push("");
+            appendTitleCharacterCounts(lines, component, currentValue, currentPage?.publishedTitle ?? null);
 
 
             if (
@@ -898,6 +908,7 @@ function buildLeaderBatchMarkdown({
                 );
 
                 lines.push("");
+                appendTitleCharacterCounts(lines, component, decision.finalValue);
 
             } else if (
                 currentValue ===
@@ -925,6 +936,7 @@ function buildLeaderBatchMarkdown({
                 );
 
                 lines.push("");
+                appendTitleCharacterCounts(lines, component, decision.finalValue);
             }
         }
     }
@@ -1100,6 +1112,7 @@ function buildFollowerBatchMarkdown({
                 );
 
                 lines.push("");
+                appendTitleCharacterCounts(lines, component, decision.finalValue, currentPage?.publishedTitle ?? null);
 
             } else if (
                 status === "DIFFERS"
@@ -1118,6 +1131,7 @@ function buildFollowerBatchMarkdown({
                 );
 
                 lines.push("");
+                appendTitleCharacterCounts(lines, component, decision.finalValue);
 
                 lines.push(
                     `**Currently ${siteId}**`
@@ -1132,6 +1146,7 @@ function buildFollowerBatchMarkdown({
                 );
 
                 lines.push("");
+                appendTitleCharacterCounts(lines, component, currentValue, currentPage?.publishedTitle ?? null);
 
             } else {
 
@@ -1148,6 +1163,7 @@ function buildFollowerBatchMarkdown({
                 );
 
                 lines.push("");
+                appendTitleCharacterCounts(lines, component, decision.finalValue);
             }
         }
     }
@@ -1371,6 +1387,7 @@ function buildLeaderChangesMarkdown({
                     component,
                     status,
                     currentValue,
+                    publishedTitle: currentPage.publishedTitle,
                     finalValue: decision.finalValue
                 });
             }
@@ -1487,6 +1504,7 @@ function buildLeaderChangesMarkdown({
                     markdownValue(item.finalValue)
                 );
                 lines.push("");
+                appendTitleCharacterCounts(lines, item.component, item.finalValue);
 
 
                 if (item.status === "MISMATCH") {
@@ -1498,6 +1516,7 @@ function buildLeaderChangesMarkdown({
                         markdownValue(item.currentValue)
                     );
                     lines.push("");
+                    appendTitleCharacterCounts(lines, item.component, item.currentValue, item.publishedTitle ?? null);
                 }
             }
 
@@ -1561,6 +1580,7 @@ function buildFollowerChangesMarkdown({
                     component,
                     status: "DIFFERS",
                     finalValue: decision.finalValue,
+                    publishedTitle: currentPage.publishedTitle,
                     currentValue
                 });
             }
@@ -1612,6 +1632,7 @@ function buildFollowerChangesMarkdown({
                 const heading = item.component === "title" ? "Title" : "Description";
                 lines.push(`**${heading} \u2014 ${item.status}**`, "");
                 lines.push("Should be:", "", markdownValue(item.finalValue), "");
+                appendTitleCharacterCounts(lines, item.component, item.finalValue);
 
                 if (item.status === "DIFFERS") {
                     lines.push(
@@ -1620,6 +1641,7 @@ function buildFollowerChangesMarkdown({
                         markdownValue(item.currentValue),
                         ""
                     );
+                    appendTitleCharacterCounts(lines, item.component, item.currentValue, item.publishedTitle ?? null);
                 }
             }
 
