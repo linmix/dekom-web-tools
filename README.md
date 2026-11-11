@@ -24,3 +24,5 @@ The standard rescan uses `cache/<site>/urls-check.json` and the current `cache/<
 Run `node .\index.js nl-nl --full`; confirm the log shows the full audit, then `STANDARD cached rescan`, then one `Syncing project with Google Drive...` line. Check timestamps for both `reports/nl-nl/full/report.md` and `reports/nl-nl/report.md`.
 
 For a quick no-download check use `node .\index.js nl-nl --rescan`. No site scans or Drive syncs were executed while preparing this patch.
+
+test
