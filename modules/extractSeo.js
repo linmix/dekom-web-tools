@@ -2,6 +2,7 @@ const fs = require("fs");
 const { fingerprint: fingerprintContent } = require("./seoContentFingerprint");
 const path = require("path");
 const cheerio = require("cheerio");
+const { formatCurrentSeoMetadata } = require("./formatSeoMetadata");
 
 
 function cleanText(value) {
@@ -407,32 +408,7 @@ function renderMarkdown(page) {
 
     lines.push("");
 
-    lines.push(
-        "## Current SEO metadata"
-    );
-
-    lines.push("");
-
-    lines.push(
-        `Published title: ${page.seo.publishedTitle}`
-    );
-
-    lines.push(
-        `Editable title: ${page.seo.editableTitle}`
-    );
-
-    lines.push(
-        `Title length: ${page.seo.titleLength}`
-    );
-
-    lines.push(
-        `Description: ${page.seo.description}`
-    );
-
-    lines.push(
-        `Description length: ${page.seo.descriptionLength}`
-    );
-
+    lines.push(...formatCurrentSeoMetadata(page.seo), "");
 
     if (page.seo.canonical) {
 
