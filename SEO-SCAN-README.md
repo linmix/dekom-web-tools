@@ -2000,7 +2000,7 @@ For DESCRIPTION show, in this order:
 - proposed description if replacing
 - proposed character count
 
-Keep current and proposed metadata visually distinct using inline code formatting or equivalent.  
+Give each current or proposed title and description its own paragraph containing only the copyable text. Use labels outside those paragraphs to distinguish current and proposed values. Put character counts and any advisory pixel width on separate lines.
 Separate each page clearly with a horizontal divider or equivalent visual break.
 
 12. Keep the output concise. Reason thoroughly, but do not expose unnecessary reasoning or repeat conclusions. The review output should contain the information needed to make an editorial decision, not a long explanation of the analysis.
