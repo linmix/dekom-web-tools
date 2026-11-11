@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "name": "German Prefixes (Filtered)",
+    "language": "de",
+    "type": "prefix_list",
+    "description": "Morphological prefixes unique to German (no Dutch overlap)."
+  },
+  "exact": [
+    "aus",
+    "bei",
+    "dar",
+    "ein",
+    "fort",
+    "hin",
+    "mit",
+    "nach",
+    "über",
+    "um",
+    "vor",
+    "weiter",
+    "zu",
+    "zusammen",
+    "zwischen"
+  ],
+  "stems": [
+    "durch",
+    "hinter",
+    "auf"
+  ]
+}

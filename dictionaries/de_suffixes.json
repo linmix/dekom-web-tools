@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "German Suffixes (Filtered)",
+    "language": "de",
+    "type": "suffix_list",
+    "description": "Suffixes and nominalization markers that do not exist in Dutch."
+  },
+  "stems": [
+    "barkeit",
+    "barkeiten",
+    "fähigkeit",
+    "fähigkeiten",
+    "heit",
+    "heiten",
+    "keit",
+    "keiten",
+    "isierung",
+    "isierungen",
+    "mäßig",
+    "mäßige",
+    "mäßigen",
+    "mäßiger",
+    "mäßiges",
+    "schaften",
+    "stimmig",
+    "stimmige",
+    "stimmigen",
+    "stimmiger",
+    "weise"
+  ]
+}

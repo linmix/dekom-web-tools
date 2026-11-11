@@ -1,0 +1,60 @@
+{
+  "sites": [
+    {
+      "id": "en-nl",
+      "label": "English (Netherlands)",
+      "sitemap": "https://www.dekom.com/en-nl/sitemap",
+      "rootUrl": "https://www.dekom.com/en-nl",
+      "scanner": "dutch",
+      "languageLabel": "Dutch",
+      "reviewLeader": "en-nl",
+      "seoSeedPaths": [
+        "/solutions",
+        "/products-partners",
+        "/about-dekom"
+      ]
+    },
+    {
+      "id": "en-gb",
+      "label": "English (United Kingdom)",
+      "sitemap": "https://www.dekom.com/en-gb/sitemap",
+      "rootUrl": "https://www.dekom.com/en-gb",
+      "scanner": "dutch",
+      "languageLabel": "Dutch",
+      "reviewLeader": "en-nl",
+      "seoSeedPaths": [
+        "/solutions",
+        "/products-partners",
+        "/about-dekom"
+      ]
+    },
+    {
+      "id": "nl-nl",
+      "label": "Dutch (Netherlands)",
+      "sitemap": "https://www.dekom.com/nl-nl/sitemap",
+      "rootUrl": "https://www.dekom.com/nl-nl",
+      "scanner": "german",
+      "languageLabel": "German",
+      "reviewLeader": "nl-nl",
+        "seoSeedPaths": [
+        "/oplossingen",
+        "/producten-partners",
+        "/daarom-dekom"
+      ]
+    },
+    {
+      "id": "nl-be",
+      "label": "Dutch (Belgium)",
+      "sitemap": "https://www.dekom.com/nl-be/sitemap",
+      "rootUrl": "https://www.dekom.com/nl-be",
+      "scanner": "german",
+      "languageLabel": "German",
+      "reviewLeader": "nl-nl",
+      "seoSeedPaths": [
+        "/oplossingen",
+        "/producten-partners",
+        "/daarom-dekom"
+      ]
+    }
+  ]
+}

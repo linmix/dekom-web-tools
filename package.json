@@ -1,0 +1,21 @@
+{
+  "name": "dekom-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "audit": "node index.js",
+    "compare": "node compare-reports.js",
+    "compare-sites": "node compare-sites.js",
+    "check": "node scripts/verify-structure.js",
+    "test": "npm run check"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.19.0",
+    "cheerio": "^1.2.0"
+  }
+}

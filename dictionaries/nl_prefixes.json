@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "name": "Dutch Prefixes (Filtered)",
+    "language": "nl",
+    "type": "prefix_list",
+    "description": "Multi-letter prefixes unique to Dutch verb/noun roots."
+  },
+  "exact": [
+    "aaneen",
+    "achter",
+    "binnen",
+    "buiten",
+    "een",
+    "omhoog",
+    "omlaag",
+    "omheen",
+    "tussen",
+    "uiteraard",
+    "vooruit"
+  ],
+  "stems": [
+    "onder",
+    "neer"
+  ]
+}

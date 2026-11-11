@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "exclusions": [
+    {
+      "url": "https://www.dekom.com/nl-nl/documents",
+      "url_map_sha256": "6da7d9c6a121229b05b3461bb6e6cd6a73cc619cc080dcce31a02e2c2317f810",
+      "selected_urls_file_sha256": "b647c27de02024291881152080fd00762720434df6f069eedb155de5578cd535",
+      "observed_http_status": 404,
+      "observed_at": "2026-10-19T20:31:08.684753+00:00",
+      "reason": "Missing sitemap documents endpoint, outside catalogue routes, returned HTTP 404 on selective live verification. Excluded from this historical catalogue/card inspection scope; no assertion about historical page contents. Applies only to this exact inventory and only without a new download receipt."
+    }
+  ]
+}

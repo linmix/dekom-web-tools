@@ -1,0 +1,76 @@
+{
+  "segmentAliases": {
+    "algemene-voorwaarden": "terms-conditions",
+    "privacyverklaring": "privacy-policy",
+    "privacypolicy": "privacy-policy",
+
+    "advies": "information",
+    "dekom-catalogus": "dekom-catalog",
+    "ise-afspraak": "ise-appointment",
+    "nieuwsbrief": "newsletter",
+    "werkplek-advies": "workspace-advice",
+
+    "daarom-dekom": "about-dekom",
+    "alles-van-een-leverancier": "everything-from-a-single-source",
+    "belangrijkste-onderwerpen": "key-topics",
+    "ons-bedrijf": "our-company",
+    "onze-diensten": "our-services",
+
+    "aankoop-installatie": "purchasing-installation",
+    "advies-verkoop": "consulting-sales",
+    "planning-ontwerp": "planning-design",
+    "training-gebruik": "training-usage",
+
+    "vergaderruimtes": "meeting-rooms",
+    "certificering": "certifications",
+    "over-ons": "about-us",
+    "referenties-case-studies": "references-case-studies",
+    "vestigingen": "locations",
+    "vacatures": "vacancies",
+    "no-more-failed-meetings": "no-more-missed-meetings",
+
+    "nieuws-en-events": "news-and-events",
+
+    "oplossingen": "solutions",
+    "methode": "methods",
+    "platform": "platforms",
+    "werkplek": "workspaces",
+
+    "hybride-evenementen": "hybrid-events",
+    "hybride-werken": "hybrid-work",
+    "interactief-samenwerken": "interactive-collaboration",
+    "videoconferentie": "videoconferencing",
+    "hardware-voor-hybride-werken": "hardware-for-hybrid-work",
+    "vergader-vermoeidheid": "meeting-fatigue",
+
+    "hardware-voor-cisco-webex": "hardware-for-cisco-webex",
+    "avocor-g-series-het-google-jamboard-alternatief": "avocor-g-series-the-google-jamboard-alternative",
+    "hardware-voor-google-meet": "hardware-for-google-meet",
+    "hardware-voor-ms-teams": "hardware-for-ms-teams",
+    "hardware-voor-ringcentral": "hardware-for-ringcentral",
+    "hardware-voor-zoom": "hardware-for-zoom",
+
+    "producten-partners": "products-partners",
+    "alle-producten": "all-products",
+    "mediatechnologie": "media-technology",
+    "onze-partners": "our-partners",
+    "producten-zoeken": "product-search",
+
+    "audiosystemen": "audiosystems",
+    "display-oplossingen": "display-solutions",
+    "draadloos-presenteren": "presentation-technology",
+    "microfoons": "microphones",
+
+    "individuele-werkplek": "individual-workstation",
+    "alle-partners": "all-partners",
+
+    "barco-clickshare-installatie-en-bedieningsgids": "barco-clickshare-installation-and-use",
+    "logitech-voor-de-individuele-werkplek": "logitech-for-the-individual-workplace",
+    "neat-board-pro-en": "neat-board-pro",
+
+    "room-systemen": "room-systems",
+    "videobars-voor-elke-ruimte": "videobars-for-every-format"
+  },
+
+  "pathAliases": {}
+}

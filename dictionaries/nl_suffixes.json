@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "name": "Dutch Suffixes (Filtered)",
+    "language": "nl",
+    "type": "suffix_list",
+    "description": "Distinctive Dutch nominalization and adjectival suffixes."
+  },
+  "stems": [
+    "achtig",
+    "achtige",
+    "achtigen",
+    "achtiger",
+    "achtiges",
+    "heid",
+    "heden",
+    "iteit",
+    "iteiten",
+    "lijkheid",
+    "lijkheden",
+    "matig",
+    "matige",
+    "matigen",
+    "matiger",
+    "matiges",
+    "stendig",
+    "stendige",
+    "stendigen",
+    "stendiger",
+    "stendiges",
+    "zaak",
+    "zaken"
+  ]
+}

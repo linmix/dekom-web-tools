@@ -218,3 +218,49 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# DEKOM-web — Project-specific exclusions
+# ==========================================
+
+# Node.js dependencies
+/node_modules/
+
+# Downloaded website content and caches
+/cache/
+/snapshots/
+
+# Generated reports and output
+/reports/
+/output/
+
+# SEO working data and generated reviews
+/SEO/
+
+# Catalogue: retain documentation and rules,
+# exclude generated datasets
+/catalogue/*
+!/catalogue/README.md
+!/catalogue/EXPORTER.md
+!/catalogue/export-scope-exclusions.json
+
+# Historical files and backups
+/archive/
+/backups/
+/dekom-full-auto-rescan/
+/catalogue-audit-pilot/
+/catalogue-audit-pilot.zip
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Additional environment and editor exclusions
+.env.*
+!.env.example
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

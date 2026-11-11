@@ -1,0 +1,18 @@
+{
+  "include": [
+"https://www.dekom.com/nl-be",
+  "https://www.dekom.com/nl-be/algemene-voorwaarden",
+  "https://www.dekom.com/nl-be/contact",
+  "https://www.dekom.com/nl-be/news",
+  "https://www.dekom.com/nl-be/privacyverklaring",
+  "https://www.dekom.com/nl-be/daarom-dekom",
+  "https://www.dekom.com/nl-be/nieuws-en-events/",
+  "https://www.dekom.com/nl-be/oplossingen",
+  "https://www.dekom.com/nl-be/producten-partners",
+  "https://www.dekom.com/nl-be/news/"
+  ],
+  "exclude": [
+    "https://www.dekom.com/nl-be/Software/",
+    "https://www.dekom.com/nl-be/Microfoons/"
+  ]
+}

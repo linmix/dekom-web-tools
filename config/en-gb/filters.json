@@ -1,0 +1,17 @@
+{
+  "include": [
+"https://www.dekom.com/en-gb",
+  "https://www.dekom.com/en-gb/terms-conditions",
+  "https://www.dekom.com/en-gb/contact",
+  "https://www.dekom.com/en-gb/news",
+  "https://www.dekom.com/en-gb/privacypolicy",
+  "https://www.dekom.com/en-gb/about-dekom",
+  "https://www.dekom.com/en-gb/nieuws-en-events/",
+  "https://www.dekom.com/en-gb/solutions",
+  "https://www.dekom.com/en-gb/products-partners",
+  "https://www.dekom.com/en-gb/news/"
+  ],
+  "exclude": [
+    "https://www.dekom.com/en-gb/Software/"
+  ]
+}
