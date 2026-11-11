@@ -1614,6 +1614,12 @@ editable character count
 rendered character count including " · DEKOM"
 ```
 
+For the current title, count the complete published HTML title as captured by the scan. For a proposed editable title, append ` · DEKOM` once when calculating the expected rendered count. Label both counts in batch reviews and reports. In older scan output, `Title length` and `titleLength` refer to the editable title.
+
+### Advisory pixel-width review
+
+Measure the complete rendered title, including ` · DEKOM`, using Screaming Frog SEO Spider’s `Title 1 Pixel Width` or the desktop SERP Snippet preview. Use 561 px as the DEKOM audit review trigger. At or above that width, preview the snippet and check whether important wording might be truncated. Record pixel width separately from both character counts. Preserve approved titles unless the language leader approves an editorial change.
+
 ---
 
 # Meta Description Rules
@@ -1944,13 +1950,14 @@ DEKOM SEO REVIEW WORKFLOW
   - page purpose and search intent
   - differentiation from related pages
   - risk of duplication or cannibalisation
-  - title length
+  - editable and rendered title character counts
   - description length
 
 7. Title target:  
   - target the complete rendered title, including the automatically appended “ · DEKOM”, at approximately 50–60 characters
   - because Pimcore appends the 8-character suffix automatically, the editable title should normally be about 42–52 characters
   - editable titles above about 57 characters should be exceptional because they produce rendered titles of about 65 characters or more
+  - label both character counts and follow the advisory pixel-width review under SEO Title Rules. A rendered width of 561 px or more prompts a snippet review. Record pixel width separately and preserve approved titles unless the language leader approves a change
   - do not include “· DEKOM” manually
 
 8. Description target:
